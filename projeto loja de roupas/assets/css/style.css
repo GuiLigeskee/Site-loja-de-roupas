@@ -1,17 +1,14 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
-
-a {
+a{
     text-decoration: none;
 }
-
-body {
+body{
     background-color: #033f37;
 }
-
-.header {
+.header{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -22,30 +19,28 @@ body {
     border: 3px solid #001d15;
 }
 
-#logo img {
+#logo img{
     height: 75px;
     width: 75px;
     margin: 10px;
     border-radius: 20%;
 }
-
-#logo img:hover {
+#logo img:hover{
     height: 90px;
     width: 90px;
     margin: 5px;
 }
 
-#lado-esquerdo ul li {
+#lado-esquerdo ul li{
     display: inline-flex;
-    margin-right: 20px;
+    margin-right: 20px ;    
 }
-
-#lado-esquerdo ul li a {
+#lado-esquerdo ul li a{
     color: #032c22;
     font-size: 1.25rem;
 }
 
-#lado-esquerdo ul li a:hover {
+#lado-esquerdo ul li a:hover{
     background-color: #053d2f;
     border-radius: 20px;
     padding: 20px;
@@ -54,34 +49,32 @@ body {
     cursor: pointer;
 }
 
-#subtitulo {
+#subtitulo{
     margin: 0 auto;
     font-style: italic;
 }
 
-#subtitulo {
+#subtitulo{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     color: #ffffff;
-    font-size: 4em;
+    font-size: 3em;
 }
-
-.rolo-de-produtos {
-    margin: 20px 12% 0 12%;
+.rolo-de-produtos{
+    margin:20px 12% 0 12% ;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 30px;
 }
-
-#produto img {
+#produto img{
     width: 100%;
     border-radius: 20px;
 }
-
-#produto {
+#produto{
     background-color: #ffffff;
     width: 200px;
     padding: 20px;
@@ -91,12 +84,10 @@ body {
     font-size: 1.5em;
     font-weight: 700;
 }
-
-#produto:hover {
+#produto:hover{
     cursor: pointer;
 }
-
-#preco {
+#preco{
     margin-top: 15px;
     background-color: #033f37;
     width: 103px;
@@ -104,4 +95,19 @@ body {
     border-radius: 20px;
     color: #ffffff;
     padding: 2px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #033f37;
+    
+}
+footer p{
+    font-size: 2em;
+
 }
