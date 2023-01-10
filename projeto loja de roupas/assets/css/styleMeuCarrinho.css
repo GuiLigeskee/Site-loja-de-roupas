@@ -73,7 +73,6 @@ body{
 #produto img{
     width: 100%;
     border-radius: 20px;
-    max-height: 170px;
 }
 #produto{
     background-color: #ffffff;
@@ -85,9 +84,11 @@ body{
     font-size: 1.5em;
     font-weight: 700;
 }
-
+#produto:hover{
+    cursor: pointer;
+}
 #preco{
-    margin-top: 10px;
+    margin-top: 15px;
     background-color: #033f37;
     width: 103px;
     padding: 2px;
@@ -95,13 +96,7 @@ body{
     color: #ffffff;
     padding: 2px;
 }
-#iconAdd{
-    width: 35px;
-    margin-top: 10px;
-}
-#iconAdd:hover{
-    cursor: pointer
-}
+
 footer{
     display: flex;
     flex-direction: row;
