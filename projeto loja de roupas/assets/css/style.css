@@ -14,7 +14,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #e0e0c8;
+    background-color: #ffffff;
     height: 96px;
     border: 3px solid #001d15;
 }
@@ -44,7 +44,7 @@ body{
     background-color: #053d2f;
     border-radius: 20px;
     padding: 20px;
-    color: #e0e0c8;
+    color: #ffffff;
     font-size: 1.5em;
     cursor: pointer;
 }
@@ -59,8 +59,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: #e0e0c8;
-    font-size: 3em;
+    color: #ffffff;
+    font-size: 4em;
 }
 .rolo-de-produtos{
     margin:20px 12% 0 12% ;
@@ -74,17 +74,24 @@ body{
     border-radius: 20px;
 }
 #produto{
-    background-color: #e0e0c8;
+    background-color: #ffffff;
     width: 200px;
     padding: 20px;
     margin: 5px;
     border: 2px solid #033f37;
     border-radius: 20px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+#produto:hover{
+    cursor: pointer;
 }
 #preco{
+    margin-top: 15px;
     background-color: #033f37;
-    width: 70px;
+    width: 103px;
     padding: 2px;
     border-radius: 20px;
-    color: #e0e0c8;
+    color: #ffffff;
+    padding: 2px;
 }
