@@ -15,7 +15,8 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: #ffffff;
-    height: 96px;
+    height: 100px;
+    width: 100%;
     border: 3px solid #001d15;
 }
 
@@ -55,12 +56,15 @@ body{
 }
 
 #subtitulo{
-    margin-top: 20px;
+    margin-top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     color: #ffffff;
-    font-size: 3em;
+    font-size: 3rem;
+}
+.p{
+    margin-top: 200px;
 }
 .rolo-de-produtos{
     margin:20px 12% 0 12% ;
