@@ -1,3 +1,5 @@
+ /*Formatação da página*/
+
 *{
     margin: 0;
     padding: 0;
@@ -8,16 +10,25 @@ a{
 body{
     background-color: #033f37;
 }
+
+/*Header*/
+
+.headerBack{
+    position: -ms-page;
+    height: 96px;
+    width: 100%;
+}
 .header{
+    position: fixed;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: #ffffff;
-    height: 100px;
+    height: 96px;
     width: 100%;
-    border: 3px solid #001d15;
+    border-bottom: 4px solid #001d15;
 }
 
 #logo img{
@@ -50,22 +61,24 @@ body{
     
 }
 
+   /*Main*/
+
 #subtitulo{
     margin: 0 auto;
     font-style: italic;
 }
 
 #subtitulo{
-    margin-top: 0px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     color: #ffffff;
     font-size: 3rem;
 }
-.p{
-    margin-top: 200px;
-}
+
+/*Área de onde ficará os produtos*/
+
 .rolo-de-produtos{
     margin:20px 12% 0 12% ;
     display: flex;
@@ -74,6 +87,9 @@ body{
     justify-content: center;
     margin-bottom: 30px;
 }
+
+/*Cartão dos produtos*/
+
 #produto img{
     width: 100%;
     border-radius: 20px;
@@ -99,13 +115,18 @@ body{
     color: #ffffff;
     padding: 2px;
 }
-#iconAdd{
+#iconAdd{/*ícone do carrinho de compras*/
     width: 35px;
     margin-top: 10px;
 }
 #iconAdd:hover{
     cursor: pointer
 }
+
+/*Fim do main*/
+
+/*Footer*/
+
 footer{
     display: flex;
     flex-direction: row;
