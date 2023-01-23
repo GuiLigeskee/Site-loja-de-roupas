@@ -14,7 +14,6 @@ body{
 /*Header*/
 
 .headerBack{
-    position: -ms-page;
     height: 96px;
     width: 100%;
 }
