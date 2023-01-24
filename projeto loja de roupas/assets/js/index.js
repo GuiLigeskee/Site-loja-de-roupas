@@ -1,5 +1,7 @@
-let iconCarrinho = document.querySelector('#iconAdd');
+const btnComprar = document.querySelector('.comprar')
 
-iconCarrinho.addEventListener('click', function(){
-    alert('Adicionado ao carrinho.')
-});
+
+btnComprar.addEventListener('click', function (e){
+    alert('Deu certo')
+}
+)
