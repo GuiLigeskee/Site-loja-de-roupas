@@ -67,7 +67,6 @@ body{
     height: 500px;
     margin: 40px 13% 0 13%;
     border: solid 7px #ffffff;
-    
 }
 
 .banner img{
@@ -150,15 +149,28 @@ body{
 footer{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
+    height: 25em;
     width: 100%;
     background-color: #ffffff;
     color: #033f37;
     
 }
 footer p{
-    font-size: 2em;
+    font-size: 1em;
+}
 
+#redesSociais{
+    margin: 20px 20px;
+
+}
+
+#redesSociais ul li{
+    list-style: none;
+}
+
+#redesSociais img{
+    width: 50px;
+}
+#redesSociais img:hover{
+    cursor: ponter;
 }
